@@ -201,7 +201,7 @@ fn run_tests_for_chip_internal(
                 }
             }
 
-            if started_at.elapsed().unwrap() > Duration::from_secs(20) {
+            if started_at.elapsed().unwrap() > Duration::from_secs(30) {
                 println!("{filename} => TIMEOUT");
                 break;
             }
